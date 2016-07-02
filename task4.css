@@ -1,0 +1,99 @@
+body,html,a,p {
+    margin:0;
+    padding:0;
+    text-decoration:none;
+}
+html{
+    font-size:62.5%;
+   background-color:#eff0f4;
+    width:100%;
+    }
+.head{
+    height:8.8rem;
+    width:100%;
+    margin-bottom:1.7rem;
+    background-color:#5fc0cd;
+    text-align: center;
+    position: relative;
+}
+.head a{
+    color:white;
+}
+.head p{
+    line-height:8.8rem;
+    font-size:3.6rem;
+    text-align:center;
+}
+.head p .left{
+    /*! margin-right:30%; */
+    font-size:3.2rem;
+    float: left;
+    margin-left: 5%;
+}
+.head p .right{
+    /*! margin-left:30%; */
+    font-size:3.2rem;
+    float: right;
+    margin-right: 5%;
+}
+.mainbody{
+    width:100%;
+}
+.mainbody .text0{
+    height:100px;
+    background-color: white;
+    margin-bottom:14px;
+}
+.mainbody input[type="text"]{
+    height:100px;
+width: 100%;
+background: url(task4-img/登陆手机.png) no-repeat 4.2rem center;
+padding-left: 15rem;
+    border:none;
+color: #e1e5e7;
+font-size: 3.2rem;
+}
+.mainbody .text2{
+    height:100px;
+    background-color: white;
+    margin-bottom:70px;
+}
+.mainbody input[type="password"]{
+    height:100px;
+    width:100%;
+    background:url(task4-img/登陆密码.png) no-repeat 4.2rem center;
+    padding-left:15rem;
+    border:none;
+    color: #e1e5e7;
+    font-size: 3.2rem;
+}
+button{
+    width:100%;
+    height:100px;
+    background-color:#5fc0cd;
+    font-size:36px;
+    border:none;
+    color:white;
+}
+.mainbody p{
+    text-align: right;
+    margin-top:19px;
+
+}
+.mainbody a{
+    font-size: 32px;
+    color:#5fc0cd;
+}
+@media screen and (max-width:640px)
+{
+    html{
+        font-size:50%;
+    }
+}
+@media screen and (max-width:480px)
+{
+    html{
+        font-size:45%;
+        min-width:320px;
+    }
+}
