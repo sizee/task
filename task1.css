@@ -1,0 +1,19 @@
+.box
+{
+    max-width:500px;
+    margin:auto;
+    border:1px solid red;
+    padding:0.5%
+}
+.clear
+{
+    clear:both;
+}
+.dia
+{
+    margin:0.5%;
+    padding:16.16%;
+    background-color:#e8830d;
+    float:left;
+    border-radius:5%;
+}
