@@ -1,0 +1,105 @@
+html,body{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    font-family: Microsoft YaHei, serif;
+}
+html{
+    font-size: 62.5%;
+    max-width:1920px;
+    border:1px solid purple;
+}
+.mainbody .img1{
+    width:100%;
+    height:13.2%;
+}
+.wrap{
+    background-color: #fafafa;
+    margin:0 auto;
+    border:1px solid blue;
+}
+.nav{
+    width:62.5%;
+    margin:5rem auto;
+}
+.nav a{
+    color:black;
+    font-size:1.6rem;
+    line-height: 1.122rem;
+}
+.nav span{
+    color:#29b078;
+    font-size: 1.6rem;
+    line-height: 1.122rem;
+}
+.content{
+    width:62.5%;
+    margin:0 auto 8rem auto;
+    position:relative;
+  /*  border:1px solid red;*/
+}
+.content .left{
+    position:absolute;
+    top:0;
+    left:0;
+    background-color: white;
+    width:18%;
+    height:auto;
+    margin-right:2.6rem;
+    margin-top:3rem;
+    text-align: center;
+    /*! border:1px solid green; */
+    box-shadow: 1px 1px 3px #999;
+    border-radius: 4px;
+}
+.left p{
+    font-size: 1.6rem;
+    line-height:3rem;
+    text-align: center;
+}
+.left ul{
+text-align: left;
+    margin:3rem;
+}
+.left li{
+    list-style-position:inside;
+    list-style-image:url(task7-img/战略合作企业---orangecircle.png);
+    /*! border:1px solid red; */
+    padding:1rem;
+}
+.left a{
+    color:#29b078;
+    font-size: 1.6rem;
+    line-height: 1.122rem;
+    text-decoration:none;
+}
+ .left li:hover,
+ .left .active,
+ .left a:hover
+ {
+    list-style-image:url(task7-img/战略合作企业---orangecircle2.png);
+    color:orange;
+}
+.content .right{
+     width:83%;
+     margin-left:17%;
+     background-color:white;
+     /*! border: 1px solid #999; */
+     box-shadow: 1px 1px 3px #999;
+ }
+.right p{
+    font-size: 1.4rem;
+    line-height: 2.822rem;
+    padding-top:2rem;
+    margin:0 3rem;
+}
+.content .right img{
+    width: 12.4rem;
+    height:3.5rem;
+}
+.content .right .img2{
+    float:left;
+    margin:4rem 5rem 2rem 5rem;
+
+}
+
