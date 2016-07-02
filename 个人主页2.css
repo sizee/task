@@ -1,0 +1,175 @@
+html,body,ul,li,span,img
+{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+#wrap
+{
+    height:auto;
+    max-width:720px;
+    margin:0 auto;
+}
+#top
+{
+    position:relative;
+    min-height:88px;
+    background-color:#5fc0cd;
+}
+#top .style1
+{
+    margin:0 auto;
+    min-height:70px;
+
+}
+#top .style2
+{;
+    position:absolute;
+    top:10px;
+    left:217px;
+    font-size: 2.125em;
+    width:22.2%;
+    color:white;
+    line-height:70px;
+    background-color:#55a8b3;
+    border-radius:10px;
+    text-align: center;
+}
+#top .style3
+{
+    position:absolute;
+    top:10px;
+    left:359px;
+    font-size: 2.125em;
+    width: 22.2%;
+    line-height:70px;
+    color:#55a8b3;
+    background-color:white;
+    border-radius:10px;
+    text-align: center;
+}
+#top img
+{
+    position:absolute;
+    top:22px;
+    left:648px;
+
+}
+#header
+{
+
+   min-height:78px;
+    width:100%;
+    border-bottom:1px solid #999;
+}
+span
+{
+    font-size:1.75em;
+    color:#999999;
+    border-width:thin;
+    font-family:Microsoft YaHei, serif;
+}
+#header .style1
+{
+    vertical-align:middle;
+}
+#header .style2
+{
+    margin-left:10%;
+    margin-right:0.086%;
+}
+#header .style3
+{
+    margin-left:10.4%;
+    margin-right:10.4%;
+}
+#header .style4
+{
+    margin-left:4.2%;
+    margin-right:4.2%;
+}
+#mainbody
+{
+    line-height:45px;
+}
+#mainbody .style1
+{
+    margin-top:30px;
+    margin-left:4.2%;
+    margin-right:1.4%;
+}
+#mainbody .style2
+{
+    margin-left:9.4%;
+    color:black;
+}
+#mainbody .style3
+{
+
+    margin-left:20.8%;
+    color:red;
+}
+#mainbody .style4
+{
+    position:absolute;
+    top:78px;
+    right:5.3%;
+}
+#mainbody .style5
+{
+    margin-top:10px;
+    margin-bottom:20px;
+    margin-left:4.2%;
+}
+#mainbody .style6
+{
+    position:absolute;
+    top:118px;
+    left:9.4%;
+}
+.ww
+{
+   min-height:180px;
+    position:relative;
+    border-bottom:1px solid #999;
+}
+.bottom
+{
+    position:fixed;
+    bottom:0;
+    background-color: white;;
+   min-height:100px;
+    width:720px;
+}
+.bottom .style0
+{
+    display: block;
+    margin: 2px auto;
+}
+.bottom .style2
+{
+    position: absolute;
+    top:30px;
+    left:23.6%;
+
+}
+.bottom .style3
+{
+    position: absolute;
+    top:60px;
+    left:24.6%;
+    color:#5fc0cd;
+}
+.bottom .style4
+{
+    position: absolute;
+    top:30px;
+    right:23.6%;
+}
+.bottom .style5
+{
+    position: absolute;
+    top:60px;
+    right:24.6%;
+    color:#999;
+}
