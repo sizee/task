@@ -73,11 +73,13 @@ h2{
     font-family: Microsoft YaHei, serif;
     font-size: 2rem;
     text-align: center;
-    padding: 3.5rem 2.5rem;
+    padding: 2.7rem 2.5rem;
     color:white;
 }
 .nav .style3:hover , .nav .style4:hover, .nav .active{
-    background: url(task7-img/技能树首页---横条.png) no-repeat 0.5rem 9.1rem;
+    /*! background: url(task7-img/技能树首页---横条.png) no-repeat 0.5rem 9.1rem; */
+    margin-right: 0.3rem;
+    border-bottom: 4px solid white;
 }
 .footer{
     width:100%;
@@ -161,7 +163,7 @@ h2{
        top: 5rem;
        left: 12%;}
      .nav .style3:hover, .nav .style4:hover, .nav .active {
-        background: url(task7-img/技能树首页---横条.png) no-repeat 0.3rem 92px;
+        /*! background: url(task7-img/技能树首页---横条.png) no-repeat 0.3rem 92px; */
     }
 }
     @media screen and (max-width:1200px)
