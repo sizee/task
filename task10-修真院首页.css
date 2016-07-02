@@ -1,0 +1,94 @@
+html,p{
+    margin:0;
+    padding:0;
+    font-size:62.5%;
+}
+.wrap{
+    min-width:320px;
+    width:100%;
+    background-color:#fafafa;
+}
+img{
+   max-width:100%;
+}
+/*************************************************/
+.mainbody .gaoxiao{
+    margin-top:4rem;
+}
+.mainbody span{
+    color:#26a26f;
+}
+.mainbody .sss{
+    margin-top:35px;
+    border-left:1px dashed  #dedede;
+
+}
+.mainbody .study{
+    margin-top:40px;
+}
+.mainbody .learn .circle1{
+    width:6rem;
+    height:6rem;
+    background-color: white;
+    font-size:2rem;
+    font-weight: 600;
+    color:#29b078;
+    display:inline-block;
+    border-radius: 50%;
+    text-align:center;
+    vertical-align: middle;
+    line-height: 6rem;
+    box-shadow: 1px 1px 2px #d0d0d0;
+}
+.mainbody .learn span{
+    display:inline-block;
+    width:60%;
+    vertical-align: middle;
+}
+.mainbody .student{
+    margin-top:6rem;
+}
+.mainbody .little-circle .circle2{
+    display:inline-block;
+    width:1.3rem;
+    height:1.3rem;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px #d0d0d0;
+}
+.mainbody .little-circle .circle2:hover,
+.mainbody .little-circle .abs{
+    background-color: #29b078;
+}
+.mainbody .student .student1{
+    margin:2rem auto;
+    padding:10px;
+    width:95%;
+    text-align: center;
+    background-color:white;
+    border-radius: 0.2rem;
+    box-shadow: 2px 2px 3px #d0d0d0;
+}
+.mainbody .company{
+    margin-top:6rem;
+}
+.mainbody .company .company1{
+    display:inline-block;
+    text-align: center  ;
+    width:99%;
+   height:10rem;
+    background-color: white;
+    box-shadow: 1px 1px 2px #d0d0d0;
+    line-height: 10rem;
+    vertical-align: middle;
+}
+.mainbody .company .company1 img{
+    display: inline-block;
+    line-height: 10rem;
+}
+.col-lg-2,
+.col-md-2,
+.col-ms-2 ,
+.col-xs-2{
+    padding:0;
+}
