@@ -1,0 +1,44 @@
+@media screen and  (max-width:1920px)
+{
+    html{
+        font-size:55%;
+
+    }
+    .wap
+    {
+        max-width:100%;
+        margin:0 auto;
+    }
+   .mainbody  .company li{
+       width:27rem;
+   }
+    .content{
+        width:75%;
+    }
+}
+@media screen and (max-width:1200px)
+{
+    html{
+        font-size:50%;
+    }
+    .wap
+    {
+        max-width:100%;
+        margin:0 auto;
+    }
+    .top .tell,
+    .top .nav,
+    .footer .footer_up,
+    .footer .footer_down{
+        width:100%;
+    }
+    .mainbody .main_up,
+    .mainbody .show,
+    .mainbody .company,
+    .mainbody .friend {
+        width:100%;
+    }
+    .mainbody .study {
+        width:90%
+    }
+}

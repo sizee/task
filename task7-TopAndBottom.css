@@ -1,0 +1,236 @@
+html,body,ul,li,p{
+    margin:0;
+    padding:0;
+    border:none;
+    list-style: none;
+    text-decoration: none;
+}
+h1{
+    clear:both;
+    color:black;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    text-align: center;
+    margin:10rem 0 3rem 0;
+}
+html{
+    font-size: 62.5%;
+}
+.wrap{
+    width:100%;
+    margin:0 auto;
+    background-color:#fafafa;
+}
+/*********************************************/
+
+h2{
+    margin:0;
+    padding:0;
+}
+.top{
+    width:100%;
+    background:url(task7-img/技能树首页---背景.png) repeat-x;
+    overflow: hidden;
+    height: 13rem;
+}
+.top .nav a{
+  text-decoration:none;
+}
+ .top .tell{
+    height:30%;
+    width:62.5%;
+    margin:0 auto ;
+}
+.tell p{
+    float:left;
+    font-family: 宋体, sans-serif;
+    font-size: 1.4rem;
+    line-height: 3.8rem;
+    color:#56bc8e;
+    /* text-align: center;*/
+}
+.top .tell img{
+    margin: 0.6rem 0 0.6rem 1.5rem;
+    float:right;
+}
+.top .pos img{
+    width: 10.9rem;
+    height:5.6rem;
+    position:absolute;
+    top:6rem;
+    left:19%;
+}
+.top .nav{
+    text-align: right;
+    height:5.2%;
+    width:62.5%;
+  margin:0 auto ;
+    clear:both;
+}
+.nav .style3{
+    width:6.1%;
+    line-height: 8.5rem;
+    font-family: Microsoft YaHei, serif;
+    font-size: 2rem;
+    text-align: center;
+    padding: 3.5rem 2.5rem;
+    color:white;
+}
+.nav .style3:hover , .nav .style4:hover, .nav .active{
+    background: url(task7-img/技能树首页---横条.png) no-repeat 0.5rem 9.1rem;
+}
+.footer{
+    width:100%;
+    /*! height:20.2rem; */
+    background-color: #26a26f;
+}
+.footer_up{
+    width:62.5%;
+    height:8.6%;
+    margin:0 auto;
+}
+.footer_up .left a,
+.footer_up .middle a{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    color:white;
+}
+.footer_up .left, .footer_up .middle{
+    float:left;
+    margin:0 8.1% 0 0;
+    padding:0;
+}
+.footer_up .right{
+    float:right;
+    padding:0;
+}
+.footer_up .left h2, .footer_up .middle h2, .footer_up .right h2{
+    font-family: Microsoft YaHei, serif;
+    font-size: 1.8rem;
+    line-height: 5rem;
+    font-weight: 500;
+    padding-right:1.6%;
+    color:white;
+}
+.footer_up .middle p, .footer_up .left p{
+    font-family: Microsoft YaHei, serif;
+    font-size: 1.5rem;
+    line-height: 5rem;
+    font-weight: 500;
+    color:#dfeee7;
+    padding-right:1.6%;
+}
+.footer_down{
+    width:100%;
+    height:3.2rem;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.footer_down p{
+    font-family: Microsoft YaHei, serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 3.2rem;
+    color:white;
+    text-align:center;
+    border-top:1px solid #32c086;
+
+}
+@media screen and  (max-width:1920px)
+{
+    html{
+        font-size:55%;
+    }
+    .wap
+    {
+        max-width:100%;
+        margin:0 auto;
+    }
+      .top .tell,
+    .top .nav,
+    .footer .footer_up{
+         width:75%;
+    }
+     .footer .footer_down
+      {
+        width:100%;
+    }
+    .top .pos img {
+       position: absolute;
+       top: 5rem;
+       left: 12%;}
+     .nav .style3:hover, .nav .style4:hover, .nav .active {
+        background: url(task7-img/技能树首页---横条.png) no-repeat 0.3rem 8.9rem;
+    }
+}
+    @media screen and (max-width:1200px)
+{
+    html{
+        font-size:50%;
+    }
+    .wap
+    {
+        max-width:100%;
+        margin:0 auto;
+    }
+    .top .tell,
+    .top .nav,
+    .footer .footer_up,
+    .footer .footer_down{
+        width:100%;
+    }
+    .top .pos img {
+       width: 10rem;
+       height: 5rem;
+       position: absolute;
+       top: 7rem;
+       left:10px;
+    }
+    .nav .style3:hover, .nav .style4:hover, .nav .active {
+        background: url(task7-img/技能树首页---横条.png) no-repeat 0.3rem 8.4rem;
+    }
+    }
+    @media screen and (max-width:640px)
+{
+    .wap{
+        width:100%;
+        max-width:640px;
+
+    }
+    .top .pos img {
+       width: 10rem;
+       height: 5rem;
+       position: absolute;
+       top: 7rem;
+       left: 1rem
+    }
+    .top .nav{
+        text-align: center;
+    }
+        .top .nav .style3,
+        .top .nav .style4{
+         float:none;
+    }
+    }
+@media screen and  (max-width:480px)
+{
+     .wap{
+        width:100%;
+        max-width:480px;
+
+    }
+    .top .pos img {
+       width: 10rem;
+       height: 5rem;
+       position: absolute;
+       top: 0;
+       left: 41%;
+           background-color:#29b078;
+    }
+    .footer_up .right{
+        float:left;
+        margin-left:1rem;
+    }
+}
+
