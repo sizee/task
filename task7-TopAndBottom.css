@@ -161,7 +161,7 @@ h2{
        top: 5rem;
        left: 12%;}
      .nav .style3:hover, .nav .style4:hover, .nav .active {
-        background: url(task7-img/技能树首页---横条.png) no-repeat 0.3rem 8.9rem;
+        background: url(task7-img/技能树首页---横条.png) no-repeat 0.3rem 92px;
     }
 }
     @media screen and (max-width:1200px)
