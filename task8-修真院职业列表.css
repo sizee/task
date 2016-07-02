@@ -1,0 +1,193 @@
+html,body,dl,dd,dt,h1,h2{
+    margin:0 ;
+    padding:0;
+    font-family: Microsoft YaHei, serif;
+    color:black;
+}
+html{
+    font-size: 62.5%;
+    background-color:purple;
+}
+.wrap{
+    width:100%;
+    max-width:1920px;
+}
+#mainbody{
+    width:62.5%;
+    margin:0 auto;
+    border:1px solid red;
+color:#fafafa;
+    overflow: hidden;
+}
+#mainbody #home{
+    overflow: hidden;
+    border-bottom:1px solid #edf1f2;
+}
+#mainbody #home a{
+    text-decoration:none;
+    color:black;
+    font-size: 1.6rem;
+    line-height: 9rem;
+}
+#mainbody #home span{
+    font-size:1.6rem;
+    color:#29b078;
+}
+#mainbody #home dl{
+    border-top:1px solid #d0d6d9;
+    overflow:hidden;
+}
+#mainbody #home dt{
+    float:left;
+    color:#999999;
+    font-size:1.4rem;
+    line-height:9rem;
+}
+#mainbody #home dd{
+    float:left;
+    color:black;
+    font-size:1.4rem;
+    line-height:2rem;
+    margin:0 1rem;
+}
+#mainbody #home  a:hover,
+#mainbody #home .active{
+    background-color: #29b078;
+    color:white;
+}
+#mainbody .front{}
+#mainbody .front h1{
+    font-size: 1.6rem;
+   line-height: 9rem;
+    text-align: left;
+    border-bottom:1px solid #d0d6d9;
+}
+#mainbody .front .box{
+    overflow: hidden;
+    width:33rem;
+    height:39rem;
+    background-color: white;
+    border-radius:0.5rem;
+    box-shadow: 1px 1px 3px #999;
+    margin:5rem 3.3rem;
+    float:left;
+}
+#mainbody .front .boxhover {
+    width:33rem;
+    height:39rem;
+    margin-top:-39rem;
+    background-color: #999;
+}
+#mainbody .front a:hover{
+    margin-top:39rem;
+}
+#mainbody .front .box dl{
+}
+#mainbody .front .box dt{
+   float:left;
+    padding:2%;
+}
+#mainbody .front .box a{}
+#mainbody .front .box dd{
+    float:left;
+    width:50%;
+    text-align: left;
+    margin-top:1rem;
+}
+#mainbody .front .box h2{
+    font-size: 1.6rem;
+    color:black;
+    line-height:3rem;
+}
+#mainbody .front .box span{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color:black;
+}
+#mainbody .front .box table{
+    color:black;
+    width:100%;
+    border:1px solid #edf1f2;
+    border-collapse: collapse;
+}
+#mainbody .front .box tr{
+}
+#mainbody .front .box td{
+    border:1px solid #edf1f2;
+    width:50%;
+    color:red;
+   font-size: 1.2rem;/*! vertical-align: middle; */
+}
+#mainbody .front .box td img{
+    vertical-align: middle;
+    margin-right:1rem;
+}
+#mainbody .front .box td span{
+    line-height: 3rem;
+    font-size:1.2rem;
+    color:#b8b8b8;
+    text-align: left;
+    /*! vertical-align: middle; */
+    margin:0 1rem;
+}
+#mainbody .front .box td p{
+    display: inline;
+    line-height: 3rem;
+    font-size:1.2rem;
+    color:#494949;
+    text-align: left;
+    /*! vertical-align: middle; */
+}
+#mainbody .front .box .tab1 td{
+    width:0;
+    text-align: center;
+}
+#mainbody .front .box .tab1  p{
+    float:left;
+    margin-left:2rem;
+    font-size: 1.2rem;
+    color:#333333;line-height: 3rem;
+    border: none;
+}
+#mainbody .front .tab1 td strong{
+    font-weight:normal;
+    font-size: 1.2rem;
+    color:#333333;
+    margin:0 2rem 0 -2rem;
+    float:right;
+    line-height: 3rem;
+}
+#mainbody .front .box .tab2 p{
+    color:black;
+    font-size: 1.4rem;
+    line-height: 3rem;
+    margin-left:1rem;
+    /*! border:1px solid #edf1f2; */
+}
+#mainbody .front .box  .tab2{
+    width:380px;
+}
+.mainbody .front .box .tab2 td{
+    width:100%;
+}
+#mainbody .front .box  .tab2 strong{
+    color:red;
+    font-size: 1.4rem;
+    line-height: 3rem;
+}
+#mainbody .front .box  .tab2 b{
+    font-size: 1.2rem;
+    color:#a9a9a9;
+    font-weight:normal;
+    text-align: center;
+    line-height: 3rem;
+    margin-left:0.5rem;
+}
+@media screen and (max-width:1920px){
+    #mainbody{
+        width:75%;
+    }
+    #mainbody .front .box{
+        margin:5% 4% 5% 0;
+    }
+}
