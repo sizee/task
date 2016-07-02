@@ -1,0 +1,141 @@
+body,ul, li ,img,a{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+html{
+    font-family: Microsoft YaHei, serif;
+    font-size:62.5%;
+}
+@media screen and (max-width:480px) and (min-width:320px)
+{
+    html{
+        font-size:50%;
+        width:100%;
+        max-width:480px;
+    }
+}
+@media screen and (max-width:320px)
+{
+    html{
+        font-size:35%;
+        width:100%;
+        max-width:320px;
+    }
+}
+.wrap{
+    max-width:640px;
+    margin:0 auto;
+    background-color: #29bde0;
+}
+.top{
+    color:white;
+    text-align:center;
+    background-color: #29bde0;
+}
+.top img{
+    width:3.6rem;
+    height:3.6rem;
+}
+.top h3{
+    font-size:3.4rem;
+    display:inline-block;
+    font-weight: normal;
+    margin:3.1% auto;
+}
+ .top-left{
+     float:left;
+     margin-top:3.1%;
+     margin-left:1.56%;
+}
+.top-right{
+    float:right;
+    margin-top:3.1%;
+    margin-right:1.56%;
+}
+.header{
+ position:relative;
+    background-color: #29bde0;
+}
+.header .text{
+    font-size:2.6rem;
+    color:#6a7b7f;
+    background-color:#b9e9f5;
+    padding:4.7% 0 4.7% 6.25%;
+    margin:0;
+}
+.header img{
+    width:7%;
+    height:30%
+}
+.header .img2{
+     position:absolute;
+    top:10%;
+    right:1.25%;
+    margin:0;
+}
+.header .down{
+    width:0;
+    height:0;
+    border-top:1rem solid #b9e9f5;
+    border-right:1rem solid transparent;
+    border-bottom:1rem solid transparent;
+    border-left:1rem solid transparent;
+    margin:0 0 0 6rem;
+}
+.header .text2{
+    color:white;
+    background-color: #29bde0;
+    font-size: 2.4rem;
+    margin:0 0 0 9.3%;
+}
+.body .abc{
+    display: inline-block;
+    width:24%;
+    margin:2% 0 2% 7%;
+    text-align: center;
+}
+.op{
+    border:0.4rem solid white;
+}
+.op .style1 {
+    font-size: 3.2rem;
+    padding:25% 0;
+    margin:0;
+    background-color:#f5c97b;
+
+}
+.op .style2 {
+    margin:0;
+    color:black;
+    font-size: 2.276rem;
+    background-color: #83b09a;
+}
+.bo img{
+    width:20%;
+    height:20%;
+}
+.bo {
+    margin-top:10%;
+    opacity:0;;
+}
+.bot{
+    position:fixed;
+    bottom:0;
+   width:100%;
+    max-width:640px;
+    background-color:#29bde0;
+    border-top:1px white solid;
+    padding:0;
+}
+button
+{
+  padding: 3.5% 30%;
+    margin: 5% 12.5%;
+    font-size:3rem;
+    color:white;
+    background-color:#fbb435;
+}
+.abc:hover .bo{
+    opacity:1;
+}
