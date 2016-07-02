@@ -1,0 +1,303 @@
+html,body,a,p{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Microsoft YaHei', sans-serif;
+}
+body{
+    width:100%;
+    max-width:1920px;
+background-color: white;
+}
+.wrap{
+    width:100%;
+    background: url(task9-img/定制箱---背景.png) repeat-x 0 0;
+}
+.top{
+    width:100%;
+}
+#top-up{
+    width:62.5%;
+    margin:0 auto;
+    height:4rem;
+}
+#top-up p{
+    float:left;
+    margin:0;
+   font-size: 1.4rem;
+    line-height: 4rem;
+    color:white;
+}
+#top-up a{
+    float:right;
+    font-size: 1.602rem;
+    line-height: 4rem;
+    border:1px solid white;
+    padding:0 1rem;
+    color:white;
+}
+#top-up a:hover,
+#top-up #active{
+    background-color: white;
+    border-right:1px solid #1d7ad9;
+    padding:0 2rem;
+    color:black;
+}
+#nav{
+    width:62.5%;
+    height:10rem;
+    margin:0 auto;
+}
+#nav ul{
+
+}
+#nav li{
+    float:right;
+    list-style: none;
+    line-height: 9rem;
+}
+#nav a{
+    color:black;
+    font-size: 1.602rem;
+    padding:1rem 2rem ;
+    background-color: white;
+    border-radius: 5px;
+    margin:0 0 0 3rem;
+    box-shadow: 1px 1px 3px #e7e7e7;
+}
+#nav a:hover{
+    background-color: #1d7ad9;
+    box-shadow: none;
+    color:white;
+}
+.footer{
+    width:100%;
+    background-color: #f9f9f9;
+}
+.footer_up{
+    height:20rem;
+    width: 62.5%;
+    margin: 0 auto;
+}
+.footer_up .bgf{
+    width:62.5%;
+    margin:0 auto;
+   overflow: hidden;
+}
+.footer_up .left{
+    margin-top:10.5%;
+    float:left;
+    width:25rem;
+}
+.footer_up .left p{
+  font-size: 1.6rem;
+    color:#999999;
+  padding: 0;
+}
+.footer_up .middle {
+    width:24rem;
+    margin:0 auto;
+    padding-top: 9.5%;
+    text-align: center;
+}
+.footer_up .middle a{
+    font-size: 1.2rem;
+    line-height: 3rem;
+    color:#999;
+    padding:0 1rem 1rem 1rem;
+}
+.footer_up .right{
+    float:right;
+    width:22rem;
+    margin-top:9%;
+
+}
+.footer_up .right img{
+    float:right;
+}
+.footer_up .right p{
+    float:left;
+    line-height:2.7rem;
+    font-size: 1.2rem;
+    color:#999999;
+}
+.footer_up .middle a:hover{
+    color:#1d7ad9;
+}
+.footer_down {
+    width:100%;
+    background-color: #1d7ad9;
+}
+.footer_down p{
+font-size: 1rem;
+    color:white;
+   text-align: center;
+    line-height: 2.5rem;
+}
+/*************************************************/
+.mainbody{
+    width:62.5%;
+    margin:0 auto;
+    overflow: hidden;
+}
+.mainbody .flow p{
+    float:right;
+    font-size: 1.8rem;
+    text-align: center;
+    color:#cccccc;
+    padding:5rem 4rem 0 0;
+    margin: 0;
+}
+.mainbody  .flow_1{
+    float:right;
+    width:16rem;
+    background: url(task9-img/定制箱---gray00.png) no-repeat -48rem 0 ;
+}
+
+.mainbody  .flow_2{
+    float:right;
+     width:16rem;
+     background: url(task9-img/定制箱---gray00.png) no-repeat -32rem 0;
+ }
+.mainbody  .flow_3{
+    float:right;
+    width:16rem;
+     background: url(task9-img/定制箱---gray00.png) no-repeat -16rem 0;
+
+ }
+.mainbody  .flow_4{
+    float:right;
+    width:16rem;
+     background: url(task9-img/定制箱---gray00.png) no-repeat ;
+ }
+.mainbody .flow p:hover,
+.mainbody .flow #active1{
+    color:#ff7f02;
+}
+.mainbody .flow_1:hover{
+    background: url(task9-img/定制箱---orange00.png) no-repeat -48rem 0;
+}
+.mainbody .flow_2:hover {
+    background: url(task9-img/定制箱---orange00.png) no-repeat -32rem 0;
+}
+.mainbody .flow_3:hover {
+    background: url(task9-img/定制箱---orange00.png) no-repeat -16rem 0;
+}
+.mainbody .flow_4:hover,
+.mainbody .flow #active{
+    background: url(task9-img/定制箱---orange00.png) no-repeat ;
+}
+.mainbody .list h2{
+    clear:both;
+    margin-top:15rem;
+   font-size: 2.2rem;
+    border-left:0.5rem solid #1d7ad9;
+    font-weight: 500;
+    padding-left:1rem;
+}
+.mainbody .list p img{
+    vertical-align: middle;
+}
+.mainbody .list p{
+    padding:1rem;
+    vertical-align: middle;
+    color:#1d7ad9;
+    font-size: 1.8rem;
+    line-height: 4.3rem;
+    background-color: #f3f3f3;
+}
+.mainbody .but{
+    text-align: center;
+    margin:8rem 0;
+}
+button{
+    color:white;
+    background-color: #e15053;
+    /*! text-align: center; */
+    padding:0.4rem 4rem;
+    /*! margin:11rem 40%; */
+    font-size: 2.6rem;
+    border-radius: 0.5rem;
+    list-style: none;
+}
+/*****************************************/
+.mainbody  .list1,
+.mainbody .list2,
+.mainbody .list3{
+    background-color: #fbfcff;
+    font-size: 1.8rem;
+    color: #666666;
+    position: relative;
+}
+
+.list1 select, .list3 select{
+    height: 3.9rem;
+    width: 12.9rem;
+    border:solid 1px #999;
+    color:#a1a1a1;
+    float:right;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    appearance:none;
+    padding:5px ;
+    background:url(task9-img/定制箱---blue向下.png)no-repeat scroll 100px center;
+    margin-top: 2rem;
+
+}
+.list2 select{
+    position:absolute;
+    right:0;
+    top:30%;
+    height:3.9rem;
+    width:12.9rem;
+    border:solid 1px #999;
+    color:#a1a1a1;
+    float:right;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    appearance:none;
+    padding:5px ;
+    background:url(task9-img/定制箱---blue向下.png)no-repeat scroll 100px center;
+    margin-top: 2rem;
+
+}
+.mainbody .list input[type=text]{
+    margin:2.4rem 1rem;
+    width:7rem;
+    height:3rem;
+}
+.mainbody .list .list_style2{
+   padding: 2.4rem 0 2.4rem 6rem;
+}
+.mainbody .list .single{
+    height:8.7rem;
+    line-height:8.7rem;
+    display:inline-block;
+}
+.mainbody .list .radio-logo{
+    position:absolute;
+    display:none;
+}
+.mainbody .list .radio-logo+label{
+    padding-left:8rem;
+    cursor:pointer;
+    position:relative;
+ display:block;
+    vertical-align: middle;
+}
+.mainbody .list .radio-logo+label::before{
+    position:absolute;
+    top:3.5rem;
+    left:3.6rem;
+    display:inline-block;
+    width:20px;
+    height:20px;
+    content:'';
+    background:url(task9-img/定制箱---circle.png) no-repeat 0 0;
+}
+.mainbody .list .radio-logo:checked+label::before{
+   background:url(task9-img/定制箱---circleblue.png) no-repeat 0 0;
+}
