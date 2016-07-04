@@ -1,0 +1,126 @@
+html,p{
+    margin:0;
+    padding:0;
+    font-size:62.5%;
+
+}
+/******************top****************************************************/
+.top{
+    color:#29b078;
+    height:40px;
+    font-size: 14px;
+    text-align: center;
+    margin:0 auto;
+}
+.top p{
+    line-height: 40px;
+    margin: 0;
+}
+.top a{
+    line-height: 40px;
+}
+/********************nav*****************************************************/
+.head0{
+    background-color:#29b078;
+    width:100%;
+}
+.navbar-default{
+    background-color:#29b078;
+    border:none;
+}
+.navbar{
+    margin-bottom:0;
+}
+.navbar-header{
+    height: 100px;
+}
+.navbar-toggle{
+    margin-top:30px;
+}
+.head0 ul li{
+    margin: 0 2px;
+}
+
+.navbar-default .navbar-nav > .active > a{
+    background-color:#29b078;
+    color:white;
+    border-bottom:4px solid white;
+}
+.navbar-default .navbar-nav  .aaa,
+.navbar-default .navbar-nav > li > a:hover{
+    border-bottom:4px solid white;
+    color:white;
+}
+/***********************footer********************************************/
+.footer {
+    margin-top:10rem;
+    margin-bottom:2rem;
+}
+.footer .link{
+
+    background-color:white;
+}
+.footer .link a{
+    font-size: 1.2rem;
+    color:#999999;
+}
+.footer .link li{
+    color:#999999;
+    padding:0.5rem 1.5rem;
+    display:inline-block;
+
+}
+.footer .footers{
+    background-color:#26a26f;
+}
+.footer .footers p{
+
+    padding:1rem 0;
+    color:white;
+    font-size:1.6rem;
+}
+.footer .footers span{
+    display:inline-block;
+    padding:1.5rem 0;
+    color:white;
+    font-size: 1.5rem;
+}
+.footer  .footers a{
+    color:white;
+    font-size:1.5rem;
+}
+/**********************@meadia**************************************************/
+@media screen and ( min-width:768px ){
+    .navbar-nav {
+        float: right;
+        margin: 0;
+    }
+    .navbar-default .navbar-nav > li > a {
+        color: white;
+        padding: 38px 18px;
+    }
+}
+@media screen and (max-width: 425px){
+    html{
+        font-size: 40%;
+    }
+    .top p{
+        display:none;
+    }
+}
+@media screen and ( max-width:767px ){
+    html{
+        font-size: 45%;
+    }
+    .navbar-default .navbar-nav .aaa a{
+        color:white;
+    }
+    .navbar-default .navbar-nav .aaa{
+        background-color:#29b078;
+        border-bottom:2px solid white;
+    }
+    .navbar-default .navbar-nav > li > a:hover{
+        border-bottom:2px solid white;
+        color:white;
+    }
+}
