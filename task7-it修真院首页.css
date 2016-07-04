@@ -199,7 +199,6 @@ html{
     width:23.5%;
     border-radius:0.5rem;
      background-color: white;
-
 }
 .show-one:hover,
 .show-two:hover,
@@ -281,6 +280,7 @@ html{
 }
 .friend a{
     color:#999;
+    text-decoration: none;
 }
 @media screen and  (max-width:1920px)
 {
