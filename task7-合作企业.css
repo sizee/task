@@ -1,14 +1,4 @@
-html,body{
-    padding:0;
-    margin:0;
-    text-decoration: none;
-    font-family: Microsoft YaHei, serif;
-}
-html{
-    font-size: 62.5%;
-    max-width:1920px;
-    border:1px solid purple;
-}
+
 .mainbody .img1{
     width:100%;
     height:13.2%;
@@ -16,7 +6,7 @@ html{
 .wrap{
     background-color: #fafafa;
     margin:0 auto;
-    min-width:480px;
+    min-width: 1200px;
     border:1px solid blue;
 }
 .nav{
@@ -44,7 +34,7 @@ html{
     top:0;
     left:0;
     background-color: white;
-    width:18%;
+    width: 19%;
     height:auto;
     margin-right:2.6rem;
     margin-top:3rem;
@@ -56,17 +46,15 @@ html{
 .left p{
     font-size: 1.6rem;
     line-height:3rem;
-    text-align: center;
 }
-.left ul{
-text-align: left;
-    margin:3rem;
-}
+.left ul{text-align: left;/* width: 8rem; */padding: 12%;}
 .left li{
     list-style-position:inside;
     list-style-image:url(task7-img/战略合作企业---orangecircle.png);
     /*! border:1px solid red; */
     padding:1rem;
+    /* display: block; */
+    width: 7rem;
 }
 .left a{
     color:#29b078;
