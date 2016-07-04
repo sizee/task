@@ -29,7 +29,6 @@ html{
 }
 .top img{
     width: 10%;
-    /* height: 17%; */
     overflow: hidden;
     margin:2.5rem 0 1rem 2rem;
 }
@@ -42,7 +41,6 @@ html{
     color:#a1a1a1;
     background-color: white;
     font-size: 3.484rem;
-    /* line-height: 11rem; */
     word-spacing: 0.6%;
     border:0.1rem solid #c9c9c9;
     margin:4.7% 6.25% 0 6.25%;
@@ -54,14 +52,12 @@ html{
     top: 3%;
     right: 2%;
     width: 7%;
-    /* height:4rem; */
 }
 .body .style0{background-color: white;position: relative;margin:4.7%  6.25% 0 6.25%;border:0.1rem solid #c9c9c9;}
 .body .text1{
     color:#fbb435;
     background-color: white;
     font-size: 4.774rem;
-    /* line-height: 4rem; */
     font-weight: 500;
     margin:4% 0 0 0;
     padding-bottom: 3%;
@@ -72,7 +68,6 @@ html{
     position: relative;
     color:white;
     font-size: 3.208rem;
-    /* line-height: 9rem; */
     background-color: #69d1e9;
     margin:4% 10%;
     text-align: center;
@@ -85,12 +80,10 @@ html{
     text-align: center;
 }
 .body .img2{
-    /* display: inline; */
     position: absolute;
     top: 23%;
     right: -11%;
     width: 8%;
-    /* height:5.6rem; */
 }
 .body .img3{
     padding: 4% 0 1rem 0;
