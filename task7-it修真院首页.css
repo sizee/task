@@ -264,8 +264,6 @@ html{
    width:62.5%;
     height:100%;
     margin:0 auto;
-  /*  border:1px solid red;*/
-   /* overflow: hidden;*/
 }
 .friend li{
     font-size: 1.4rem;
@@ -273,8 +271,7 @@ html{
     color:#999;
     list-style: disc inside;
     float: left;
-  /*  border:1px solid red;*/
-    margin:0 1% 0 1.6%;
+    margin:0 1.5% 0 1.6%;
 }
 .friend a{
     color:#999;
