@@ -270,7 +270,7 @@ html{
     line-height: 3rem;
     color:#999;
     list-style: disc inside;
-    float: left;
+    display:inline-block;
     margin:0 1.5% 0 1.6%;
 }
 .friend a{
