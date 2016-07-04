@@ -16,6 +16,7 @@ html{
 .wrap{
     background-color: #fafafa;
     margin:0 auto;
+    min-width:480px;
     border:1px solid blue;
 }
 .nav{

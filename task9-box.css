@@ -8,28 +8,33 @@ html{
     font-family: 'Microsoft YaHei', sans-serif;
 }
 body{
-    width:100%;
-    max-width:1920px;
 background-color: white;
 }
 .wrap{
-    width:100%;
-    background: url(task9-img/定制箱---背景.png) repeat-x 0 0;
+  margin:0 auto;
 }
 .top{
     width:100%;
+    min-width:1200px;
+    /* background-color: #5fd91d; */
 }
 #top-up{
-    width:62.5%;
+    width: 100%;
     margin:0 auto;
-    height:4rem;
+    height: 4rem;
+    background-color: #1d7ad9;
+}
+.top .middle{
+    width:1200px;
+    margin:0 auto;
 }
 #top-up p{
     float:left;
     margin:0;
-   font-size: 1.4rem;
+    font-size: 1.4rem;
     line-height: 4rem;
     color:white;
+    padding-left: 0.5rem;
 }
 #top-up a{
     float:right;
@@ -47,13 +52,12 @@ background-color: white;
     color:black;
 }
 #nav{
-    width:62.5%;
+    width:100%;
     height:10rem;
     margin:0 auto;
+    background-color: #f9f9f9;
 }
-#nav ul{
-
-}
+#nav ul{width: 100%;overflow: hidden;padding: 0;margin: 0;}
 #nav li{
     float:right;
     list-style: none;
@@ -79,7 +83,7 @@ background-color: white;
 }
 .footer_up{
     height:20rem;
-    width: 62.5%;
+    width: 1200px;
     margin: 0 auto;
 }
 .footer_up .bgf{
@@ -101,13 +105,13 @@ background-color: white;
     width:24rem;
     margin:0 auto;
     padding-top: 9.5%;
-    text-align: center;
+    text-align: left;
 }
 .footer_up .middle a{
     font-size: 1.2rem;
     line-height: 3rem;
     color:#999;
-    padding:0 1rem 1rem 1rem;
+    padding: 0 2.5rem 1rem 1rem;
 }
 .footer_up .right{
     float:right;
@@ -128,6 +132,7 @@ background-color: white;
     color:#1d7ad9;
 }
 .footer_down {
+    min-width: 1200px;
     width:100%;
     background-color: #1d7ad9;
 }
@@ -139,9 +144,15 @@ font-size: 1rem;
 }
 /*************************************************/
 .mainbody{
-    width:62.5%;
+    width:1200px;
     margin:0 auto;
     overflow: hidden;
+}
+.mainbody .flow{
+    width:100%;
+    margin:0 auto;
+    overflow: hidden;
+    padding-top: 4rem;
 }
 .mainbody .flow p{
     float:right;
@@ -153,38 +164,37 @@ font-size: 1rem;
 }
 .mainbody  .flow_1{
     float:right;
-    width:16rem;
-    background: url(task9-img/定制箱---gray00.png) no-repeat -48rem 0 ;
+    width: 160px;
+    background: url(task9-img/定制箱---gray00.png) no-repeat -480px 0;
 }
 
 .mainbody  .flow_2{
     float:right;
-     width:16rem;
-     background: url(task9-img/定制箱---gray00.png) no-repeat -32rem 0;
+    width: 160px;
+    background: url(task9-img/定制箱---gray00.png) no-repeat -320px 0;
  }
 .mainbody  .flow_3{
     float:right;
-    width:16rem;
-     background: url(task9-img/定制箱---gray00.png) no-repeat -16rem 0;
-
+    width: 160px;
+    background: url(task9-img/定制箱---gray00.png) no-repeat -160px 0;
  }
 .mainbody  .flow_4{
     float:right;
-    width:16rem;
-     background: url(task9-img/定制箱---gray00.png) no-repeat ;
+    width: 160px;
+    background: url(task9-img/定制箱---gray00.png) no-repeat 0 0;
  }
 .mainbody .flow p:hover,
 .mainbody .flow #active1{
     color:#ff7f02;
 }
 .mainbody .flow_1:hover{
-    background: url(task9-img/定制箱---orange00.png) no-repeat -48rem 0;
+    background: url(task9-img/定制箱---orange00.png) no-repeat -480px 0;
 }
 .mainbody .flow_2:hover {
-    background: url(task9-img/定制箱---orange00.png) no-repeat -32rem 0;
+    background: url(task9-img/定制箱---orange00.png) no-repeat -320px 0;
 }
 .mainbody .flow_3:hover {
-    background: url(task9-img/定制箱---orange00.png) no-repeat -16rem 0;
+    background: url(task9-img/定制箱---orange00.png) no-repeat -160px 0;
 }
 .mainbody .flow_4:hover,
 .mainbody .flow #active{
@@ -222,6 +232,7 @@ button{
     font-size: 2.6rem;
     border-radius: 0.5rem;
     list-style: none;
+    border: none;
 }
 /*****************************************/
 .mainbody  .list1,
@@ -242,10 +253,9 @@ button{
     -moz-appearance:none;
     -webkit-appearance:none;
     appearance:none;
-    padding:5px ;
-    background:url(task9-img/定制箱---blue向下.png)no-repeat scroll 100px center;
+    padding:5px;
+    background: url(task9-img/定制箱---blue向下.png)no-repeat scroll 124px center;
     margin-top: 2rem;
-
 }
 .list2 select{
     position:absolute;
@@ -259,10 +269,9 @@ button{
     -moz-appearance:none;
     -webkit-appearance:none;
     appearance:none;
-    padding:5px ;
-    background:url(task9-img/定制箱---blue向下.png)no-repeat scroll 100px center;
+    padding:5px;
+    background: url(task9-img/定制箱---blue向下.png)no-repeat scroll 124px center;
     margin-top: 2rem;
-
 }
 .mainbody .list input[type=text]{
     margin:2.4rem 1rem;

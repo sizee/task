@@ -5,18 +5,19 @@ html,body,dl,dd,dt,h1,h2{
     color:black;
 }
 html{
-    font-size: 62.5%;
-    background-color:purple;
+    background-color:#fafafa;
+    width:100%;
 }
 .wrap{
     width:100%;
+    margin:0 auto;
     max-width:1920px;
+    min-width: 320px;
 }
 #mainbody{
-    width:62.5%;
     margin:0 auto;
-    border:1px solid red;
-color:#fafafa;
+    /* border:1px solid red; */
+    color:#fafafa;
     overflow: hidden;
 }
 #mainbody #home{
@@ -55,7 +56,9 @@ color:#fafafa;
     background-color: #29b078;
     color:white;
 }
-#mainbody .front{}
+#mainbody .front{
+    text-align: left;
+}
 #mainbody .front h1{
     font-size: 1.6rem;
    line-height: 9rem;
@@ -64,19 +67,45 @@ color:#fafafa;
 }
 #mainbody .front .box{
     overflow: hidden;
-    width:33rem;
+    width: 30rem;
     height:39rem;
     background-color: white;
     border-radius:0.5rem;
     box-shadow: 1px 1px 3px #999;
+    display: inline-block;
     margin:5rem 3.3rem;
-    float:left;
+    position:relative;
 }
-#mainbody .front .boxhover {
-    width:33rem;
-    height:39rem;
-    margin-top:-39rem;
-    background-color: #999;
+#mainbody  .box  .show{
+    position:absolute;
+    width:100%;
+    height:100%;
+    color:white;
+    text-align: center;
+    transform:rotateY(-180deg);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-color:black;
+    opacity:0.85;
+    top: 0;
+    left: 0;
+}
+#mainbody   .box:hover  .show{
+    transform:rotateY(0deg);
+    transition:1s;
+}
+#mainbody  .box .show p{
+    font-size:1.6rem;
+    text-align: center;
+    padding-top:3.5rem;
+    margin:0 5rem;
+}
+#mainbody  .box .show h3{
+    font-size:1.6rem;
+    text-align: center;
+    font-weight: 500;
+    margin-top:8.5rem;
 }
 #mainbody .front a:hover{
     margin-top:39rem;
@@ -165,7 +194,7 @@ color:#fafafa;
     /*! border:1px solid #edf1f2; */
 }
 #mainbody .front .box  .tab2{
-    width:380px;
+    width: 100%;
 }
 .mainbody .front .box .tab2 td{
     width:100%;
@@ -185,9 +214,9 @@ color:#fafafa;
 }
 @media screen and (max-width:1920px){
     #mainbody{
-        width:75%;
+        width: 75%;
     }
     #mainbody .front .box{
-        margin:5% 4% 5% 0;
+        margin: 5% 0% 5% 0;
     }
 }

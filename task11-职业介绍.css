@@ -44,7 +44,7 @@ font-size:1.4rem;
     background-color:#29b078;
 }
 .mainbody .content{
-    text-align: center;
+    /* text-align: center; */
 }
 .mainbody .content  h4{
     line-height: 8rem;
@@ -56,7 +56,7 @@ font-size:1.4rem;
     padding:0;
 }
 .mainbody .content .box{
-    width:38.5rem;
+    width: 32.5rem;
     overflow: hidden;
     position:relative;
     margin-right:0.5rem;
@@ -73,6 +73,7 @@ font-size:1.4rem;
 .mainbody .content .box dt,
 .mainbody .content .box dd{
     float:left;
+    width: 16rem;
 }
 .mainbody .content .box dd>h3{
     margin:0;

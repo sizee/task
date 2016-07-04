@@ -19,13 +19,13 @@ html{
 }
 .wrap{
    width:100%;
-    margin:0 auto;
-    background-color:#fafafa;
+   margin:0 auto;
+   background-color: #fafafa;
+   min-width: 320px;
 }
 /***************************************/
 .mainbody{
     width:100%;
-  /*  border:1px solid blueviolet;*/
     overflow:hidden;
     color:black;
 }
@@ -33,14 +33,12 @@ html{
     width:62.5%;
     padding:0;
     margin:7% auto;
-   /* border:1px solid red;*/
    position:relative;
     height:23.4rem;
 }
  .eff{
      width:20%;
      height:23.5rem;
-   /*  border:1px solid red;*/
      background:url(task7-img/技能树首页---高效2.png) no-repeat center 0;
      padding:0 2rem;
      position:absolute;
@@ -51,7 +49,6 @@ html{
  .norm{
      width:20%;
      height:23.5rem;
-   /*  border:1px solid red;*/
      background:url(task7-img/技能树首页---书籍2.png) no-repeat center 0;
      padding:0 2rem;
      position:absolute;
@@ -62,7 +59,6 @@ html{
 .con {
     width:20%;
     height:23.5rem;
-   /* border:1px solid red;*/
     background:url(task7-img/技能树首页---人脉2.png) no-repeat center 0;
     padding:0 2rem;
     position:absolute;
@@ -72,7 +68,6 @@ html{
 .inform{
     width:15%;
     height:23.5rem;
-  /*  border:1px solid red;*/
     padding:0 2rem;
     position:absolute;
     top:0;
@@ -119,27 +114,27 @@ html{
     width:62.5%;
     height:100%;
     margin:0 auto ;
-   /* border:1px solid red;*/
+    text-align: center;
+}
+.mainbody .study .study-body{
+   display:inline-block;
+   width: 20%;
 }
 .study li{
     display: inline-block;
     vertical-align:middle;
     margin: 2.08% 1.45% 0 0;
-  /*  border:1px solid red;*/
-
+}
+.study .study-body img{
+    max-width: 100%;
+    /* height:15%; */
 }
 .study .type1{
     font-size: 1.4rem;
-    line-height: 2.6rem;
-    width:10%;
+    line-height: 2rem;
+    width: 30%;
     color:#999;
-}
-.study .type2{
-    font-size: 1.4rem;
-    line-height: 2.6rem;
-    width:14rem;
-    color:#999;
-    margin-right:-2.08%;
+    display:inline-block;
 }
 .mainbody .show{
     width:62.5%;
@@ -306,7 +301,7 @@ html{
         width:75%;
     }
     .study li {
-    margin: 2.08% 2.1% 0 0;
+    margin: 2rem  0 0;
 }
 }
 @media screen and (max-width:1200px)
@@ -323,19 +318,31 @@ html{
     .mainbody .main_up,
     .mainbody .show,
     .mainbody .company,
-    .mainbody .friend
+    .mainbody .friend,
+    .mainbody .study
     {
         width:100%;
     }
-    .mainbody .study
-    {width:90%}
+    .study .study-body img{
+        max-width: 75%;
+        /* height:15%; */
+    }
+}
+@media screen and (max-width:840px)
+{
+
+    .mainbody .study .study-body{
+        width: 45%;
+    }
+    .study .type1{
+        width: 50%;
+    }
 }
 @media screen and (max-width:640px)
 {
     .wap{
         width:100%;
         max-width:640px;
-
     }
 
     .mainbody .main_up{
@@ -371,16 +378,23 @@ html{
     .mainbody .inform span{
         text-align: center;
     }
+
+    .mainbody .study .study-body{
+        width: 60%;
+    }
+    .study .type1{
+        width: 50%;
+    }
     .mainbody .show{
         height:78rem;
     }
-.mainbody .show-one
+    .mainbody .show-one
     {
-        width:48%;
+        width: 48%;
     }
     .mainbody .show-two
     {
-        width:48%;
+        width: 48%;
         left:auto;
         right:0;
     }
@@ -398,5 +412,8 @@ html{
         top:38rem;
 
     }
-
 }
+
+
+
+
