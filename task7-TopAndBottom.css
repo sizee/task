@@ -221,12 +221,7 @@ h2{
 
     }
     .top .pos img {
-       width: 10rem;
-       height: 5rem;
-       position: absolute;
-       top: 0;
-       left: 41%;
-           background-color:#29b078;
+       display: none;
     }
     .footer_up .right{
         float:left;
