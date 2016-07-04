@@ -10,7 +10,7 @@ html{
 @media screen and (max-width:480px) and (min-width:320px)
 {
     html{
-        font-size:50%;
+        font-size:45%;
         width:100%;
         max-width:480px;
     }
@@ -25,6 +25,7 @@ html{
 }
 .wrap{
     max-width:640px;
+    min-width: 320px;
     margin:0 auto;
     background-color: #29bde0;
 }
@@ -92,7 +93,7 @@ html{
 }
 .body .abc{
     display: inline-block;
-    width:24%;
+    width: 24%;
     margin:2% 0 2% 7%;
     text-align: center;
 }
@@ -100,11 +101,10 @@ html{
     border:0.4rem solid white;
 }
 .op .style1 {
-    font-size: 3.2rem;
+    font-size: 3rem;
     padding:25% 0;
     margin:0;
     background-color:#f5c97b;
-
 }
 .op .style2 {
     margin:0;

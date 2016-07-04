@@ -14,39 +14,45 @@ body{
 .wrap{
     max-width:640px;
     min-width:320px;
+    height: 100%;
     margin:0 auto;
     background-color: #68cdd5;
 }
 .head{
     max-width:640px;
     text-align: center;
-    height:8.9rem;
+    /* height:8.9rem; */
     vertical-align:middle;
     background:#22292c;
     position:relative;
 }
 .head img{
-   
-    vertical-align: middle;
-    width: 23%;
+   vertical-align: middle;
+   max-width: 20%;
 }
 .head p{
     color:white;
     font-size:3.4rem;
-    line-height:8.9rem;
+    /* line-height:8.9rem; */
+    padding: 9% 0;
+    text-align: center;
 }
 .head a{
-    position:absolute;
-    top:2rem;
-    left:1.5rem;
+    /* position:absolute; */
+    /* top:2rem; */
+    /* left:1.5rem; */
     color:white;
     font-size:2.6rem;
-    line-height:3.7rem;
+    /* line-height:3.7rem; */
+    float: left;
+    padding: 9% 5%;
 }
 .head .more{
-    position:absolute;
-    top: 4rem;
-    right:1.8rem;
+    /* position:absolute; */
+    /* top: 4rem; */
+    /* right:1.8rem; */
+    float: right;
+    padding: 12% 5%;
 }
 
 .head .circle{
@@ -63,10 +69,7 @@ body{
 vertical-align: middle;
     margin-left:1.2rem;
 }
-.mainbody{
-
-    max-width:640px;
-}
+.mainbody{max-width:640px;}
 .mainbody .style-img1{
     max-width:8.43%;
      max-height:8.43%;
@@ -75,20 +78,20 @@ vertical-align: middle;
 }
 .mainbody .style-img2{
     display:block;
-    margin:4.2rem auto 12rem ;
+    margin: 4.2rem auto 14%;
 }
 .mainbody p{
     color:white;
     width:71.2%;
     font-size: 3rem;
-    line-height: 5.422rem;
-    margin:14% auto;
+    line-height: 5rem;
+    margin: 14% auto;
     font-weight: 300;
 }
 .footer {
     text-align: center;
     max-width:640px;
-    padding-bottom:20rem;
+    padding-bottom: 10%;
 }
 .footer .left{
    
@@ -111,14 +114,14 @@ vertical-align: middle;
     }
     
     .mainbody .style-img2{
-        width:60%;
+        max-width: 50%;
     }
     
     .mainbody p{
     color:white;
-    width:85%;
+    width: 80%;
     font-size: 3rem;
-    line-height: 5.422rem;
+    line-height: 2;
     margin:14% auto;
     font-weight: 300;
 }
@@ -134,4 +137,9 @@ vertical-align: middle;
 .footer .right{
     margin-left:14%;
 }
+}
+@media screen and (max-width:320px){
+    html{
+        font-size:40%;
+    }
 }
