@@ -2,7 +2,6 @@ html,p{
     margin:0;
     padding:0;
     font-size:62.5%;
-
 }
 /******************top****************************************************/
 .top{
@@ -22,7 +21,6 @@ html,p{
 /********************nav*****************************************************/
 .head0{
     background-color:#29b078;
-    width:100%;
 }
 .navbar-default{
     background-color:#29b078;
@@ -40,6 +38,10 @@ html,p{
 .head0 ul li{
     margin: 0 2px;
 }
+/*.container-fluid{
+    padding:0;
+    margin:0;
+}*/
 
 .navbar-default .navbar-nav > .active > a{
     background-color:#29b078;
@@ -53,12 +55,21 @@ html,p{
 }
 /***********************footer********************************************/
 .footer {
-    margin-top:10rem;
-    margin-bottom:2rem;
+    margin-top: 15%;
+   
+    width: 100%;
 }
 .footer .link{
 
     background-color:white;
+}
+.footer .circle3{
+    width:5px;
+    height:5px;
+    background-color:#999999;
+    border-radius:50%;
+    display:inline-block;
+    vertical-align: middle;
 }
 .footer .link a{
     font-size: 1.2rem;
@@ -66,9 +77,9 @@ html,p{
 }
 .footer .link li{
     color:#999999;
-    padding:0.5rem 1.5rem;
-    display:inline-block;
-
+    list-style-type: none;
+    padding: 0.5% 2%;
+    display: inline-block;
 }
 .footer .footers{
     background-color:#26a26f;
@@ -89,8 +100,33 @@ html,p{
     color:white;
     font-size:1.5rem;
 }
+.footer .down{
+    margin-top: 2rem;
+    border-top: 1px solid #1d7ad9;
+}
+.footer .down span{
+    padding: 1rem 0;
+    line-height: 2rem;
+    }
 /**********************@meadia**************************************************/
 @media screen and ( min-width:768px ){
+     html{
+        font-size: 45%;
+    }
+    .container {
+    width: 100%;
+}
+    .navbar-default .navbar-nav .aaa a{
+        color:white;
+    }
+    .navbar-default .navbar-nav .aaa{
+        background-color:#29b078;
+        border-bottom:2px solid white;
+    }
+    .navbar-default .navbar-nav > li > a:hover{
+        border-bottom:2px solid white;
+        color:white;
+    }
     .navbar-nav {
         float: right;
         margin: 0;

@@ -15,6 +15,15 @@ img{
 .mainbody .gaoxiao{
     margin-top:4rem;
 }
+.mainbody h4{
+    font-size:18px;
+    font-weight:800;
+    color:black;
+}
+.mainbody small{
+    font-size:16px;
+    color:#999999;
+}
 .mainbody span{
     color:#26a26f;
 }
@@ -25,6 +34,9 @@ img{
 }
 .mainbody .study{
     margin-top:40px;
+}
+.mainbody .learn .learn-bottom{
+    padding-bottom:2%;
 }
 .mainbody .learn .circle1{
     width:6rem;
@@ -63,32 +75,52 @@ img{
 .mainbody .student .student1{
     margin:2rem auto;
     padding:10px;
-    width:95%;
+    /* width:95%; */
     text-align: center;
     background-color:white;
     border-radius: 0.2rem;
     box-shadow: 2px 2px 3px #d0d0d0;
+    padding-bottom: 30%;
+    padding-top: 15%;
 }
+.mainbody .student .student1 img{
+    padding-bottom: 14%;
+}
+.mainbody .student .student1 small{
+    display: inline-block;
+    width: 90%;
+    text-align: left;
+   }
 .mainbody .company{
     margin-top:6rem;
 }
 .mainbody .company .company1{
     display:inline-block;
-    text-align: center  ;
-    width:99%;
-   height:10rem;
+    text-align: center;
+    width: 19%;
     background-color: white;
     box-shadow: 1px 1px 2px #d0d0d0;
-    line-height: 10rem;
     vertical-align: middle;
+    padding: 5% 0;
+    margin: 3px 0;
 }
 .mainbody .company .company1 img{
     display: inline-block;
-    line-height: 10rem;
+    max-width: 90%;
 }
-.col-lg-2,
-.col-md-2,
-.col-ms-2 ,
-.col-xs-2{
+.mainbody .learn .center-block span{
+    color: #999999;
+}
+.footer .link ul{
     padding:0;
+    list-style-type: circle;
+}
+@media screen and (max-width:767px)
+{
+    .mainbody .gaoxiao .sss{
+        border-left:none;
+        border-top:1px dashed  #dedede;
+        margin-top:10%;
+        padding-top:10%;
+    }
 }
