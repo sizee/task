@@ -3,13 +3,17 @@ html,p{
     padding:0;
     font-size:62.5%;
 }
+.row{
+    padding:0;
+}
 /******************top****************************************************/
 .top{
     color:#29b078;
     height:40px;
     font-size: 14px;
-    text-align: center;
+    /* text-align: center; */
     margin:0 auto;
+    padding: 0px 6%;
 }
 .top p{
     line-height: 40px;
@@ -21,6 +25,7 @@ html,p{
 /********************nav*****************************************************/
 .head0{
     background-color:#29b078;
+    padding: 0 4%;
 }
 .navbar-default{
     background-color:#29b078;
@@ -30,10 +35,11 @@ html,p{
     margin-bottom:0;
 }
 .navbar-header{
-    height: 100px;
+    /* height: 68%; */
 }
 .navbar-toggle{
-    margin-top:30px;
+    margin-top: 5%;
+    margin-right: 7%;
 }
 .head0 ul li{
     margin: 0 2px;
@@ -56,8 +62,8 @@ html,p{
 /***********************footer********************************************/
 .footer {
     margin-top: 15%;
-   
     width: 100%;
+    background-color: #26a26f;
 }
 .footer .link{
 
@@ -81,18 +87,11 @@ html,p{
     padding: 0.5% 2%;
     display: inline-block;
 }
-.footer .footers{
-    background-color:#26a26f;
-}
-.footer .footers p{
-
-    padding:1rem 0;
-    color:white;
-    font-size:1.6rem;
-}
+.footer .footers{padding: 0 6%;}
+.footer .footers p{padding: 6% 0;color:white;font-size:1.6rem;}
 .footer .footers span{
     display:inline-block;
-    padding:1.5rem 0;
+    padding: 5% 0;
     color:white;
     font-size: 1.5rem;
 }
