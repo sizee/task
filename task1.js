@@ -18,6 +18,8 @@
             i=0;
         }
         document.getElementById("color-"+bbb).style.backgroundColor=aaa;
+        console.log("格子"+bbb+"变成了"+aaa);
+        
       }
      function func(){
          setInterval("changeColor()",1000);
